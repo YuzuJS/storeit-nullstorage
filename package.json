@@ -1,0 +1,41 @@
+{
+  "name": "storeit-nullstorage",
+  "version": "1.0.0",
+  "description": "A null storage implimentation of WebStorage.",
+  "main": "./lib/NullStorage.js",
+  "homepage": "https://github.com/YuzuJS/storeit-nullstorage",
+  "author": {
+    "name": "YuzuJS"
+  },
+  "keywords": [
+    "storeit"
+  ],
+  "contributors": [
+    {
+      "name": "Donavon West",
+      "email": "email@donavon.com",
+      "url": "http://donavon.com"
+    }
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/YuzuJS/storeit-nullstorage/raw/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YuzuJS/storeit-nullstorage.git"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "lint": "jshint ./lib",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "jshint": ">= 0.7.1",
+    "coffee-script": ">= 1.3.3",
+    "mocha": ">= 1.1.0",
+    "chai": ">= 1.0.4",
+    "sinon": ">= 1.3.4",
+    "sinon-chai": ">= 2.1.0"
+  }
+}
